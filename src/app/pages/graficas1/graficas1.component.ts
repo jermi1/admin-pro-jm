@@ -43,11 +43,10 @@ export class Graficas1Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  console.log(this.graficos['grafico1'].labels);
   }
 
   emitir(valor)
   {
-    valor = this.graficos['grafico1'].labels;
+    valor = this.graficos[ ' grafico1 ' ].labels;
   }
 }

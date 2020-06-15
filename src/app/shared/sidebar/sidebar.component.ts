@@ -8,8 +8,10 @@ import { SidebarService } from '../../services/service.index';
   ]
 })
 export class SidebarComponent implements OnInit {
+  _sidebar: any = this._Sidebar;
 
-  constructor(private _sidebar: SidebarService) { }
+  constructor(private _Sidebar: SidebarService) {
+  }
 
   ngOnInit(): void {
   }
